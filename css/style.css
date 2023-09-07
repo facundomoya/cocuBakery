@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .navbakerylogo {
   width: 90px;
   margin-left: 35px;
@@ -15,6 +17,16 @@
   position: absolute;
   right: 0px;
   top: 0px;
+}
+
+.posmodalnew {
+  position: relative;
+  bottom: 6px;
+  left: 6px;
+}
+
+.title{
+  font-family: 'Great Vibes', cursive;
 }
 
 footer {

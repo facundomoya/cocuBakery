@@ -64,7 +64,7 @@
     </header>
     <main>
       <section class="container">
-        <h1 class="display-3 text-center my-4">Product Gallery</h1>
+        <h1 class="display-1 text-center my-4 title">Product Gallery</h1>
         <hr />
         <article class="row text">
           <div class="col-sm-12 col-md-4 col-lg-3 my-4">
@@ -83,7 +83,13 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button
+                  class="btn btn-warning"
+                  data-bs-target="#modalcroissant"
+                  data-bs-toggle="modal"
+                >
+                  See more
+                </button>
               </div>
             </div>
           </div>
@@ -103,7 +109,13 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button
+                  class="btn btn-warning"
+                  data-bs-target="#modalbriochebread"
+                  data-bs-toggle="modal"
+                >
+                  See more
+                </button>
               </div>
             </div>
           </div>
@@ -120,7 +132,13 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button
+                  class="btn btn-warning"
+                  data-bs-target="#modalsmallbread"
+                  data-bs-toggle="modal"
+                >
+                  See more
+                </button>
               </div>
             </div>
           </div>
@@ -137,7 +155,13 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button
+                  class="btn btn-warning"
+                  data-bs-target="#modalbreadwithspices"
+                  data-bs-toggle="modal"
+                >
+                  See more
+                </button>
               </div>
             </div>
           </div>
@@ -154,7 +178,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button class="btn btn-warning">See more</button>
               </div>
             </div>
           </div>
@@ -171,7 +195,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button class="btn btn-warning">See more</button>
               </div>
             </div>
           </div>
@@ -188,7 +212,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button class="btn btn-warning">See more</button>
               </div>
             </div>
           </div>
@@ -205,7 +229,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button class="btn btn-warning">See more</button>
               </div>
             </div>
           </div>
@@ -222,7 +246,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button class="btn btn-warning">See more</button>
               </div>
             </div>
           </div>
@@ -239,7 +263,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button class="btn btn-warning">See more</button>
               </div>
             </div>
           </div>
@@ -256,13 +280,207 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem quae modi consequatur.
                 </p>
-                <a href="#" class="btn btn-warning">See more</a>
+                <button class="btn btn-warning">See more</button>
               </div>
             </div>
           </div>
         </article>
       </section>
     </main>
+    <!-- modal window (croissant)-->
+    <div
+      class="modal fade"
+      id="modalcroissant"
+      tabindex="-1"
+      aria-labelledby="modalcroissantLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title display-5" id="modalcroissantLabel">
+              Croissant
+              <span class="badge fs-4 text-bg-danger posmodalnew">New</span>
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/products/Croissant_00018_portfolio1.jpg"
+              alt="croissant"
+              class="w-100"
+            />
+            <p class="lead my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ex
+              odit tempore asperiores! Aperiam quas mollitia accusamus
+              perspiciatis amet, veniam recusandae atque doloremque illo,
+              laboriosam expedita minus optio magnam nostrum nihil quos vel
+              architecto deserunt.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal window (brioche bread)-->
+    <div
+      class="modal fade"
+      id="modalbriochebread"
+      tabindex="-1"
+      aria-labelledby="modalbriochebreadLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title display-5" id="modalbriochebreadLabel">
+              Brioche bread
+              <span class="badge fs-4 text-bg-danger posmodalnew">New</span>
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/products/Brioche-large-dark_00059_portfolio1.jpg"
+              alt="brioche bread"
+              class="w-100"
+            />
+            <p class="lead my-3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+              mollitia nam perferendis soluta beatae sequi quia cumque
+              necessitatibus. Commodi molestiae deserunt in dolorem laboriosam
+              vero molestias error rem sed? Aspernatur mollitia inventore saepe
+              ad nihil.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal window (small bread)-->
+    <div
+      class="modal fade"
+      id="modalsmallbread"
+      tabindex="-1"
+      aria-labelledby="modalsmallbreadLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title display-5" id="modalsmallbreadLabel">
+              Small bread
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/products/Bread1.jpg"
+              alt="small bread"
+              class="w-100"
+            />
+            <p class="lead my-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              dolorum iure dolorem maiores ipsum numquam, iusto similique, saepe
+              natus quaerat nobis ullam quam ut architecto itaque obcaecati
+              laudantium, soluta explicabo inventore dolores accusamus earum
+              sunt.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal window (bread with spices)-->
+    <div
+      class="modal fade"
+      id="modalbreadwithspices"
+      tabindex="-1"
+      aria-labelledby="modalbreadwithspicesLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title display-5" id="modalbreadwithspicesLabel">
+              Bread with spices
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/products/Bread2.jpg"
+              alt="bread with spices"
+              class="w-100"
+            />
+            <p class="lead my-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatibus, sit. Nulla aut quo sit debitis nihil facere
+              similique, quia, porro officiis maiores minus dolor laudantium
+              numquam reiciendis dolorum voluptates? Voluptatem aspernatur
+              incidunt iusto veniam vel.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="bg-dark text-light">
       <section class="container-fluid marginsection row w-100">
         <article class="col-sm-12 col-md-4 col-lg-4">
