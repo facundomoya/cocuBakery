@@ -34,19 +34,27 @@ footer {
 }
 
 /* media queries */
-@media all and (max-width: 576px) {
+@media all and (max-width: 767px) {
   .sliderresponsive {
     height: 250px;
     object-fit: cover;
   }
+
   .cardsize {
     margin: 12px 0px;
+  }
+
+  .footerbakerylogo {
+    width: 150px;
+  }
+
+  .navbakerylogo {
+    margin-left: 18px;
   }
 }
 
 @media all and (min-width: 768px) {
   .footerbakerylogo {
-    width: 200px;
     position: relative;
     left: 30px;
   }
