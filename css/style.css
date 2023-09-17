@@ -33,7 +33,31 @@ footer {
   padding: 30px 0px;
 }
 
+.error404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.buttonpagenotfound {
+  line-height: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+#pagenotfound {
+  font-size: 200px;
+}
+
 /* media queries */
+@media all and (max-width: 576px) {
+  #pagenotfound {
+    font-size: 130px;
+  }
+}
+
 @media all and (max-width: 767px) {
   .sliderresponsive {
     height: 250px;
