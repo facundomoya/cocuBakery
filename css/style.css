@@ -49,7 +49,6 @@ ul {
   line-height: 30px;
   width: 200px;
   height: 50px;
-  margin-right: 10px;
 }
 
 .positionfooter {
@@ -76,7 +75,8 @@ ul {
   }
 
   .buttonpagenotfound {
-    font-size: 18px;
+    line-height: 30px;
+    font-size: 14px;
     width: 150px;
   }
 
