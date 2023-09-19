@@ -45,12 +45,6 @@ ul {
   margin: 0;
 }
 
-.buttonpagenotfound {
-  line-height: 30px;
-  width: 200px;
-  height: 50px;
-}
-
 .positionfooter {
   display: flex;
   flex-direction: row;
@@ -72,11 +66,6 @@ ul {
   footer {
     font-size: small;
     text-align: center;
-  }
-
-  .buttonpagenotfound {
-    font-size: 15px;
-    width: 150px;
   }
 
   .positionfooter {
@@ -109,7 +98,7 @@ ul {
   .footerbakerylogo {
     width: 150px;
   }
-  
+
   .navbakerylogo {
     margin-left: 18px;
   }
