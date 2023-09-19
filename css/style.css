@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
+footer {
+  padding: 30px 0px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
 .navbakerylogo {
   width: 90px;
   margin-left: 35px;
@@ -29,14 +37,6 @@
   font-family: "Great Vibes", cursive;
 }
 
-ul {
-  list-style-position: inside;
-}
-
-footer {
-  padding: 30px 0px;
-}
-
 .error404 {
   display: flex;
   justify-content: center;
@@ -52,14 +52,14 @@ footer {
   margin-right: 10px;
 }
 
-#pagenotfound {
-  font-size: 200px;
-}
-
 .positionfooter {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+#pagenotfound {
+  font-size: 200px;
 }
 
 #positionImageAboutUs {
@@ -70,8 +70,9 @@ footer {
 
 /* media queries */
 @media all and (max-width: 575px) {
-  #pagenotfound {
-    font-size: 130px;
+  footer {
+    font-size: small;
+    text-align: center;
   }
 
   .buttonpagenotfound {
@@ -86,13 +87,17 @@ footer {
     align-items: center;
   }
 
-  footer {
-    font-size: small;
-    text-align: center;
+  #pagenotfound {
+    font-size: 130px;
   }
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
+  footer {
+    font-size: small;
+    text-align: center;
+  }
+
   .sliderresponsive {
     height: 250px;
     object-fit: cover;
@@ -105,14 +110,9 @@ footer {
   .footerbakerylogo {
     width: 150px;
   }
-
+  
   .navbakerylogo {
     margin-left: 18px;
-  }
-
-  footer {
-    font-size: small;
-    text-align: center;
   }
 }
 
