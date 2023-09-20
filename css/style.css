@@ -118,7 +118,7 @@ ul {
 }
 
 @media all and (min-width: 992px) {
-  .navbar-position {
+  .navbar-flex {
     display: flex;
     flex-direction: row;
     justify-content: end;
